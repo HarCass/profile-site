@@ -2,7 +2,7 @@ import {SiTypescript, SiExpress, SiMongodb, SiPostgresql} from 'react-icons/si';
 
 const About = () => {
     return <section id="about" className="w-full h-full flex flex-col items-center gap-2">
-        <img src="https://harcass.github.io/Profile-Site/src/assets/profile-pic.jpg" className="rounded-full w-1/3"></img>
+        <img src="/profile-pic.jpg" className="rounded-full w-1/3"></img>
         <p className="w-full text-center animate-fade-right animate-duration-1000 animate-delay-500 md:text-xl">Hello 👋 my name is Harry and I code full-stack apps.</p>
         <ul className="flex flex-row gap-2 text-xl animate-fade-up animate-duration-1000 animate-delay-1000 md:mt-10 md:text-4xl">
             <li>
