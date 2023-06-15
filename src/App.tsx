@@ -4,7 +4,7 @@ import Profile from './pages/Profile'
 
 function App() {
   return (
-    <section id='app' className='min-h-screen bg-fixed bg-cover bg-gradient-to-br from-slate-700 to-slate-900'>
+    <section id='app' className='min-h-screen bg-fixed bg-cover bg-gradient-to-br from-slate-900 to-slate-600'>
       <Header/>
       <Profile/>
       <Footer/>
@@ -12,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
